@@ -64,7 +64,7 @@ class AuthSystem {
       await this.simulateAPICall(1000);
       const users = JSON.parse(localStorage.getItem("penguinUsers") || "[]");
       const user = users.find(
-        (u) => u.email === email && u.password === password
+        (u) => u.email === email && u.password === password,
       );
 
       if (user) {
@@ -81,7 +81,7 @@ class AuthSystem {
         } else {
           sessionStorage.setItem(
             "penguinUser",
-            JSON.stringify(this.currentUser)
+            JSON.stringify(this.currentUser),
           );
         }
 
@@ -92,7 +92,7 @@ class AuthSystem {
         window.dispatchEvent(
           new CustomEvent("authChange", {
             detail: { user: this.currentUser, action: "signin" },
-          })
+          }),
         );
       } else {
         this.showError("signin-password", "Invalid email or password");
@@ -125,7 +125,7 @@ class AuthSystem {
       if (!this.validatePassword(password)) {
         this.showError(
           "signup-password",
-          "Password must be at least 8 characters with letters and numbers"
+          "Password must be at least 8 characters with letters and numbers",
         );
         return;
       }
@@ -138,7 +138,7 @@ class AuthSystem {
       if (!terms) {
         this.showError(
           "signup-terms",
-          "Please accept the terms and conditions"
+          "Please accept the terms and conditions",
         );
         return;
       }
@@ -146,7 +146,7 @@ class AuthSystem {
       if (users.find((u) => u.email === email)) {
         this.showError(
           "signup-email",
-          "An account with this email already exists"
+          "An account with this email already exists",
         );
         return;
       }
@@ -182,7 +182,7 @@ class AuthSystem {
       window.dispatchEvent(
         new CustomEvent("authChange", {
           detail: { user: this.currentUser, action: "signup" },
-        })
+        }),
       );
     } catch (error) {
       this.showError("signup-email", "An error occurred. Please try again.");
@@ -209,7 +209,7 @@ class AuthSystem {
       window.dispatchEvent(
         new CustomEvent("authChange", {
           detail: { user: this.currentUser, action: "socialLogin" },
-        })
+        }),
       );
     } catch (error) {
       this.showError("auth-modal", `Failed to sign in with ${provider}`);
@@ -229,7 +229,7 @@ class AuthSystem {
     window.dispatchEvent(
       new CustomEvent("authChange", {
         detail: { user: null, action: "logout" },
-      })
+      }),
     );
   }
 
@@ -295,7 +295,7 @@ class AuthSystem {
     ];
     const color = colors[Math.floor(Math.random() * colors.length)];
     return `https://ui-avatars.com/api/?name=${encodeURIComponent(
-      name
+      name,
     )}&background=${color.slice(1)}&color=fff&size=100`;
   }
 
@@ -312,7 +312,7 @@ class AuthSystem {
         errorElement.className = "error-message";
         fieldElement.parentNode.insertBefore(
           errorElement,
-          fieldElement.nextSibling
+          fieldElement.nextSibling,
         );
       }
 
@@ -391,4 +391,3 @@ if (typeof module !== "undefined" && module.exports) {
 }
 
 // JS Auth End
-// ------------------------------------------------------------------------------->

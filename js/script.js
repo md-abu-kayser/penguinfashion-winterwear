@@ -1,6 +1,6 @@
-// Main JS Application Controller Is Here----------->>>>>>>>>>>>>
+// Main JS Application Controller Is Here----------->
 // Note: This page i used many unsplash.com website images.
-// ----------------------------------------------------------------->>>>>>>>>>>>
+// ---------------------------------------------------------------->
 class PenguinFashionApp {
   constructor() {
     this.currentUser = null;
@@ -164,8 +164,8 @@ class PenguinFashionApp {
             }">
                 <div class="product-image">
                     <img src="${product.image}" alt="${
-          product.name
-        }" loading="lazy">
+                      product.name
+                    }" loading="lazy">
                     ${
                       product.discount
                         ? `<div class="discount-badge">-${product.discount}%</div>`
@@ -193,7 +193,7 @@ class PenguinFashionApp {
                     <h3 class="card-title text-lg mb-2">${product.name}</h3>
                     <p class="text-base-content/70 mb-3">${product.description.substring(
                       0,
-                      80
+                      80,
                     )}...</p>
                     <div class="card-actions justify-between items-center">
                         <div class="price">
@@ -219,7 +219,7 @@ class PenguinFashionApp {
                     </div>
                 </div>
             </div>
-        `
+        `,
       )
       .join("");
 
@@ -245,7 +245,7 @@ class PenguinFashionApp {
                     </button>
                 </div>
             </div>
-        `
+        `,
       )
       .join("");
 
@@ -429,7 +429,7 @@ class PenguinFashionApp {
       (product) =>
         product.name.toLowerCase().includes(query) ||
         product.description.toLowerCase().includes(query) ||
-        product.category.toLowerCase().includes(query)
+        product.category.toLowerCase().includes(query),
     );
 
     this.displaySearchResults(results);
@@ -455,7 +455,7 @@ class PenguinFashionApp {
                         </div>
                     </div>
                 </div>
-            `
+            `,
         )
         .join("");
 
@@ -712,14 +712,14 @@ class PenguinFashionApp {
     const newsletterForm = document.getElementById("newsletter-form");
     if (newsletterForm) {
       newsletterForm.addEventListener("submit", (e) =>
-        this.handleNewsletter(e)
+        this.handleNewsletter(e),
       );
     }
 
     const footerNewsletter = document.getElementById("footer-newsletter");
     if (footerNewsletter) {
       footerNewsletter.addEventListener("submit", (e) =>
-        this.handleNewsletter(e)
+        this.handleNewsletter(e),
       );
     }
   }
@@ -731,7 +731,7 @@ class PenguinFashionApp {
 
     if (email && this.validateEmail(email)) {
       const subscribers = JSON.parse(
-        localStorage.getItem("newsletterSubscribers") || "[]"
+        localStorage.getItem("newsletterSubscribers") || "[]",
       );
       subscribers.push({
         email: email,
@@ -739,7 +739,7 @@ class PenguinFashionApp {
       });
       localStorage.setItem(
         "newsletterSubscribers",
-        JSON.stringify(subscribers)
+        JSON.stringify(subscribers),
       );
 
       this.showToast("Thank you for subscribing!", "success");
@@ -911,5 +911,4 @@ if (typeof module !== "undefined" && module.exports) {
   module.exports = PenguinFashionApp;
 }
 
-// >>>>>>>>>>>>>>>>>>End>>>>>>>>>>>>>>>>>>>>>>>>
-// -------------------------------------------------->
+// End

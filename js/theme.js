@@ -1,5 +1,5 @@
 // Theme Management
-// --------------------------------->>>>>>
+// --------------------------------->
 class ThemeManager {
   constructor() {
     this.themes = [
@@ -35,7 +35,7 @@ class ThemeManager {
   loadTheme() {
     const savedTheme = localStorage.getItem("penguinTheme");
     const systemPrefersDark = window.matchMedia(
-      "(prefers-color-scheme: dark)"
+      "(prefers-color-scheme: dark)",
     ).matches;
 
     if (savedTheme) {
@@ -96,7 +96,7 @@ class ThemeManager {
                                 : ""
                             }
                         </div>
-                    `
+                    `,
                       )
                       .join("")}
                 </div>
@@ -126,7 +126,7 @@ class ThemeManager {
 
   toggleTheme() {
     const currentIndex = this.themes.findIndex(
-      (t) => t.id === this.currentTheme
+      (t) => t.id === this.currentTheme,
     );
     const nextIndex = (currentIndex + 1) % this.themes.length;
     this.applyTheme(this.themes[nextIndex].id);
@@ -183,7 +183,7 @@ class ThemeManager {
     window.dispatchEvent(
       new CustomEvent("themeChange", {
         detail: { theme: this.currentTheme },
-      })
+      }),
     );
   }
 
@@ -211,4 +211,4 @@ if (typeof module !== "undefined" && module.exports) {
   module.exports = ThemeManager;
 }
 
-// Theme End ------->>>
+// Theme End

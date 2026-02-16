@@ -1,5 +1,5 @@
 // Shopping Cart JS
-// ----------------------------------------------------------->
+// --------------------------------------------------->
 class Cart {
   constructor() {
     this.items = [];
@@ -29,7 +29,7 @@ class Cart {
     window.dispatchEvent(
       new CustomEvent("cartUpdate", {
         detail: { items: this.items, total: this.total },
-      })
+      }),
     );
   }
 
@@ -89,9 +89,8 @@ class Cart {
   showAddToCartNotification(product) {
     const notification = document.querySelector(".cart-notification");
     if (notification) {
-      notification.querySelector(
-        "span"
-      ).textContent = `${product.name} added to cart!`;
+      notification.querySelector("span").textContent =
+        `${product.name} added to cart!`;
       notification.classList.add("show");
 
       setTimeout(() => {
@@ -141,7 +140,7 @@ class Cart {
                                 <i class="fas fa-times"></i>
                             </button>
                         </div>
-                    `
+                    `,
                       )
                       .join("")}
                 </div>
@@ -149,7 +148,7 @@ class Cart {
                     <div class="flex justify-between items-center mb-3">
                         <span class="font-semibold">Subtotal:</span>
                         <span class="font-bold text-lg">$${this.total.toFixed(
-                          2
+                          2,
                         )}</span>
                     </div>
                     <div class="space-y-2">
@@ -203,8 +202,8 @@ class Cart {
                                 (item) => `
                                 <div class="p-6 flex items-center space-x-4">
                                     <img src="${item.image}" alt="${
-                                  item.name
-                                }" class="w-20 h-20 object-cover rounded-lg">
+                                      item.name
+                                    }" class="w-20 h-20 object-cover rounded-lg">
                                     <div class="flex-1">
                                         <h3 class="font-semibold text-lg">${
                                           item.name
@@ -239,7 +238,7 @@ class Cart {
                                         </button>
                                     </div>
                                 </div>
-                            `
+                            `,
                               )
                               .join("")}
                         </div>

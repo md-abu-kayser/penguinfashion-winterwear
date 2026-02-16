@@ -1,5 +1,5 @@
 // Product Management
-// ------------------------------------------------------------>>>
+// ------------------------------------------------------->
 // Note: This page i used many unsplash.com website images.
 // ------------------------------------------>
 class ProductManager {
@@ -544,8 +544,8 @@ class ProductManager {
             }">
                 <div class="product-image">
                     <img src="${product.image}" alt="${
-          product.name
-        }" loading="lazy">
+                      product.name
+                    }" loading="lazy">
                     ${
                       product.discount
                         ? `<div class="discount-badge">-${product.discount}%</div>`
@@ -573,7 +573,7 @@ class ProductManager {
                     <h3 class="card-title text-lg mb-2">${product.name}</h3>
                     <p class="text-base-content/70 mb-3">${product.description.substring(
                       0,
-                      80
+                      80,
                     )}...</p>
                     <div class="card-actions justify-between items-center">
                         <div class="price">
@@ -596,7 +596,7 @@ class ProductManager {
                     </div>
                 </div>
             </div>
-        `
+        `,
       )
       .join("");
 
@@ -622,7 +622,7 @@ class ProductManager {
                     </button>
                 </div>
             </div>
-        `
+        `,
       )
       .join("");
 
@@ -683,7 +683,7 @@ class ProductManager {
     this.showToast(
       `Showing ${
         category === "all" ? "all products" : category + " collection"
-      }`
+      }`,
     );
   }
 
@@ -713,7 +713,7 @@ class ProductManager {
     // Category filter
     if (this.filters.category !== "all") {
       filteredProducts = filteredProducts.filter(
-        (product) => product.category === this.filters.category
+        (product) => product.category === this.filters.category,
       );
     }
 
@@ -721,13 +721,13 @@ class ProductManager {
     filteredProducts = filteredProducts.filter(
       (product) =>
         product.price >= this.filters.priceRange[0] &&
-        product.price <= this.filters.priceRange[1]
+        product.price <= this.filters.priceRange[1],
     );
 
     // Rating filter
     if (this.filters.rating > 0) {
       filteredProducts = filteredProducts.filter(
-        (product) => product.rating >= this.filters.rating
+        (product) => product.rating >= this.filters.rating,
       );
     }
 
@@ -739,7 +739,7 @@ class ProductManager {
           product.description
             .toLowerCase()
             .includes(this.filters.searchQuery) ||
-          product.tags.some((tag) => tag.includes(this.filters.searchQuery))
+          product.tags.some((tag) => tag.includes(this.filters.searchQuery)),
       );
     }
 
@@ -782,8 +782,8 @@ class ProductManager {
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div>
                         <img src="${product.image}" alt="${
-      product.name
-    }" class="w-full h-80 object-cover rounded-lg">
+                          product.name
+                        }" class="w-full h-80 object-cover rounded-lg">
                     </div>
                     <div>
                         <h2 class="text-2xl font-bold mb-2">${product.name}</h2>
@@ -814,7 +814,7 @@ class ProductManager {
                                       .map(
                                         (size) => `
                                         <button class="btn btn-outline btn-sm">${size}</button>
-                                    `
+                                    `,
                                       )
                                       .join("")}
                                 </div>
@@ -827,7 +827,7 @@ class ProductManager {
                                       .map(
                                         (color) => `
                                         <button class="btn btn-outline btn-sm">${color}</button>
-                                    `
+                                    `,
                                       )
                                       .join("")}
                                 </div>
@@ -871,7 +871,7 @@ class ProductManager {
     if (!product) return;
 
     const wishlist = JSON.parse(
-      localStorage.getItem("penguinWishlist") || "[]"
+      localStorage.getItem("penguinWishlist") || "[]",
     );
     const existingIndex = wishlist.findIndex((item) => item.id === productId);
 
