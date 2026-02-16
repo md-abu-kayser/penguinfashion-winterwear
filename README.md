@@ -69,13 +69,13 @@ Use this repo as a portfolio piece, a launchpad for production, or a reference i
 1. **Clone repository:**
 
 ```powershell
-git clone https://github.com/md-abu-kayser/PenguinFashion-Modern-Winter-Wear-E-Commerce.git
+git clone https://github.com/md-abu-kayser/penguinfashion-winterwear.git
 ```
 
 2. **github live link:**
 
 ```powershell
-https://md-abu-kayser.github.io/PenguinFashion-Modern-Winter-Wear-E-Commerce/
+https://md-abu-kayser.github.io/penguinfashion-winterwear/
 
 ```
 
@@ -156,12 +156,11 @@ I can add `CONTRIBUTING.md` and `CODE_OF_CONDUCT.md` if you want a polished cont
 
 ### Contact & Maintainer
 
-**Maintainer:** [md-abu-kayser](https://github.com/md-abu-kayser)  
-**Name:** Md Abu Kayser - Full-Stack Engineer
-
+- **Name:** Md Abu Kayser - Full-Stack Engineer
+- **Project:** _penguinfashion-winterwear_
+- **Maintainer:** [md-abu-kayser](https://github.com/md-abu-kayser)
 - **GitHub:** [github.com/abu.kayser-official](https://github.com/md-abu-kayser)
 - **Email:** [abu.kayser.official@gmail.com](mailto:abu.kayser.official@gmail.com)
-- **Project:** _PenguinFashion-Modern-Winter-Wear-E-Commerce_
 
 If you’d like this README tailored for a specific purpose - such as **hiring managers**, **open-source contributors**, or **client deliverables** - feel free to request a custom tone or format.
 
