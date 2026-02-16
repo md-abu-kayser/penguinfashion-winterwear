@@ -1,4 +1,4 @@
-# PenguinFashion | Premium Winter Wear E-Commerce
+# PenguinFashion - Premium Winter Wear E-Commerce Prototype
 
 ### Note: This page i used many unsplash.com website images.
 
