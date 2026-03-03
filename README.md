@@ -1,6 +1,16 @@
 # PenguinFashion - Premium Winter Wear E-Commerce Prototype
 
-### Note: This page i used many unsplash.com website images.
+<!-- Unsplash / Images -->
+
+[![Unsplash](https://img.shields.io/badge/Images-Unsplash-black?logo=unsplash\&logoColor=white)](https://unsplash.com/)
+[![Unsplash API](https://img.shields.io/badge/API-Unsplash%20Developers-000000?logo=unsplash\&logoColor=white)](https://unsplash.com/developers)
+[![Unsplash Source](https://img.shields.io/badge/Source-Unsplash%20Source-black?logo=unsplash\&logoColor=white)](https://source.unsplash.com/)
+[![Unsplash License](https://img.shields.io/badge/License-Unsplash-111111?logo=unsplash\&logoColor=white)](https://unsplash.com/license
+
+- Unsplash main site: https://unsplash.com/
+- Unsplash Developers (API & docs): https://unsplash.com/developers
+- Unsplash Source (simple randomized image URLs): https://source.unsplash.com/
+- Unsplash License page: https://unsplash.com/license
 
 An elegant, responsive, and accessible static storefront prototype for a winter wear brand. This repository is designed to impress clients and hiring managers: polished UI, clear architecture, example workflows, and easy paths to production.
 
