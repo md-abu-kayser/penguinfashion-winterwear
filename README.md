@@ -159,14 +159,14 @@ I can add `CONTRIBUTING.md` and `CODE_OF_CONDUCT.md` if you want a polished cont
 - **Name:** Md Abu Kayser - Full-Stack Engineer
 - **Project:** _penguinfashion-winterwear_
 - **Maintainer:** [md-abu-kayser](https://github.com/md-abu-kayser)
-- **GitHub:** [github.com/abu.kayser-official](https://github.com/md-abu-kayser)
 - **Email:** [abu.kayser.official@gmail.com](mailto:abu.kayser.official@gmail.com)
+- **GitHub:** [github.com/abu.kayser-official](https://github.com/md-abu-kayser)
 
 If you’d like this README tailored for a specific purpose - such as **hiring managers**, **open-source contributors**, or **client deliverables** - feel free to request a custom tone or format.
 
 ---
 
-**Thank you for reviewing this project!**  
 It’s designed to be **clean, well-structured**, and **pleasant to explore** - perfect for portfolio showcases or professional demos.
+**Thank you for reviewing this project!**  
 
 ---
