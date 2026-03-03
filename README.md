@@ -1,16 +1,41 @@
 # PenguinFashion - Premium Winter Wear E-Commerce Prototype
 
+<!-- MIT License -->
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
+
+<!-- Demo Live Link -->
+
+[![Demo](https://img.shields.io/badge/demo-GitHub%20Pages-brightgreen)](https://md-abu-kayser.github.io/heartscript/)
+
+<!-- HTML & CSS -->
+
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5\&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3\&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+
+<!-- Styling / PostCSS -->
+
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?logo=tailwindcss\&logoColor=white)](https://tailwindcss.com/docs/)
+[![PostCSS](https://img.shields.io/badge/PostCSS-efefef?logo=postcss\&logoColor=black)](https://postcss.org/)
+[![daisyUI](https://img.shields.io/badge/daisyUI-5A0EF8?logo=tailwindcss\&logoColor=white)](https://daisyui.com/)
+[![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?logo=bootstrap\&logoColor=white)](https://getbootstrap.com/)
+
+<!-- Fonts & Icons -->
+
+[![Google Fonts](https://img.shields.io/badge/Google_Fonts-4285F4?logo=google\&logoColor=white)](https://fonts.google.com/)
+[![Font Awesome](https://img.shields.io/badge/Font_Awesome-528DD7?logo=fontawesome\&logoColor=white)](https://fontawesome.com/)
+[![Heroicons](https://img.shields.io/badge/Heroicons-0EA5E9?logo=heroicons\&logoColor=white)](https://heroicons.com/)
+
 <!-- Unsplash / Images -->
 
 [![Unsplash](https://img.shields.io/badge/Images-Unsplash-black?logo=unsplash\&logoColor=white)](https://unsplash.com/)
 [![Unsplash API](https://img.shields.io/badge/API-Unsplash%20Developers-000000?logo=unsplash\&logoColor=white)](https://unsplash.com/developers)
-[![Unsplash Source](https://img.shields.io/badge/Source-Unsplash%20Source-black?logo=unsplash\&logoColor=white)](https://source.unsplash.com/)
-[![Unsplash License](https://img.shields.io/badge/License-Unsplash-111111?logo=unsplash\&logoColor=white)](https://unsplash.com/license
 
-- Unsplash main site: https://unsplash.com/
-- Unsplash Developers (API & docs): https://unsplash.com/developers
-- Unsplash Source (simple randomized image URLs): https://source.unsplash.com/
-- Unsplash License page: https://unsplash.com/license
+<!-- Languages & Web Standards -->
+
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript\&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![ECMAScript Spec](https://img.shields.io/badge/ECMAScript-262-7A0BC0?logo=ecmascript\&logoColor=white)](https://www.ecma-international.org/publications-and-standards/standards/ecma-262/)
+
 
 An elegant, responsive, and accessible static storefront prototype for a winter wear brand. This repository is designed to impress clients and hiring managers: polished UI, clear architecture, example workflows, and easy paths to production.
 
