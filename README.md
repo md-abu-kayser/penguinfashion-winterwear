@@ -18,7 +18,6 @@
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?logo=tailwindcss\&logoColor=white)](https://tailwindcss.com/docs/)
 [![PostCSS](https://img.shields.io/badge/PostCSS-efefef?logo=postcss\&logoColor=black)](https://postcss.org/)
 [![daisyUI](https://img.shields.io/badge/daisyUI-5A0EF8?logo=tailwindcss\&logoColor=white)](https://daisyui.com/)
-[![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?logo=bootstrap\&logoColor=white)](https://getbootstrap.com/)
 
 <!-- Fonts & Icons -->
 
@@ -36,10 +35,25 @@
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript\&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 [![ECMAScript Spec](https://img.shields.io/badge/ECMAScript-262-7A0BC0?logo=ecmascript\&logoColor=white)](https://www.ecma-international.org/publications-and-standards/standards/ecma-262/)
 
+## Plain docs links
+
+- HTML (MDN) docs: [https://developer.mozilla.org/en-US/docs/Web/HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- CSS (MDN) docs: [https://developer.mozilla.org/en-US/docs/Web/CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- Tailwind CSS docs: [https://tailwindcss.com/docs/](https://tailwindcss.com/docs/)
+- PostCSS docs / postcss.config: [https://postcss.org/](https://postcss.org/)
+- daisyUI docs: [https://daisyui.com/](https://daisyui.com/)
+- Google Fonts docs: [https://fonts.google.com/](https://fonts.google.com/)
+- Font Awesome docs: [https://fontawesome.com/](https://fontawesome.com/)
+- Heroicons docs: [https://heroicons.com/](https://heroicons.com/)
+- Unsplash main site: https://unsplash.com/
+- Unsplash Developers (API & docs): https://unsplash.com/developers
+- JavaScript (MDN) docs: [https://developer.mozilla.org/en-US/docs/Web/JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- ECMAScript (spec, ECMA-262) docs: [https://www.ecma-international.org/publications-and-standards/standards/ecma-262/](https://www.ecma-international.org/publications-and-standards/standards/ecma-262/)
+
+---
 
 An elegant, responsive, and accessible static storefront prototype for a winter wear brand. This repository is designed to impress clients and hiring managers: polished UI, clear architecture, example workflows, and easy paths to production.
 
----
 
 ## Table of contents
 
@@ -191,8 +205,8 @@ I can add `CONTRIBUTING.md` and `CODE_OF_CONDUCT.md` if you want a polished cont
 
 ### Contact & Maintainer
 
-- **Name:** Md Abu Kayser - Full-Stack Engineer
 - **Project:** _penguinfashion-winterwear_
+- **Name:** Md Abu Kayser - Full-Stack Engineer
 - **Maintainer:** [md-abu-kayser](https://github.com/md-abu-kayser)
 - **Email:** [abu.kayser.official@gmail.com](mailto:abu.kayser.official@gmail.com)
 - **GitHub:** [github.com/abu.kayser-official](https://github.com/md-abu-kayser)
